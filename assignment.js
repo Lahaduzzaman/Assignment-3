@@ -1,14 +1,19 @@
+// https://github.com/Lahaduzzaman/Assignment-3
+
+
+
 // Problem-1: Kilometer TO Meter
 
 function kilometerToMeter(kilometer) {
   if (kilometer < 0) {
-      return "Sorry!Distance value can not be negative.Please enter the positive value"
+      return "Sorry! Distance value can not be negative.Please enter the positive value"
   }
   else {
       var meter = kilometer * 1000;   // 1 kilometer = 1000 meter
       return meter;
   }
 }
+
 
 
 
@@ -47,7 +52,6 @@ function hotelCost(days) {
       var secondTenDay = remaining * 80;     //Days after 10, 20% discount.
       var totalCost = firstTenDay + secondTenDay;
   }
-
   else {
       var firstTenDay = 10 * 100;
       var secondTenDay = 10 * 80;
@@ -57,6 +61,7 @@ function hotelCost(days) {
   }
   return totalCost;
 }
+
 
 
 
