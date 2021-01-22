@@ -19,13 +19,13 @@ function kilometerToMeter(kilometer) {
 
 // Problem-2: Budget Calculator
 
-function budgetCalculator(numberOfWatch, numberOfPhone, numberOfLaptop) {
+function budgetCalculator(numberOfWatch, numberOfMobile, numberOfLaptop) {
   var watchPrice = 50;     //per watch price
-  var phonePrice = 100;    //per phone price 
+  var mobilePrice = 100;   //per mobile price 
   var laptopPrice = 500;   //per laptop price
 
-  if (numberOfWatch >= 0 && numberOfPhone >= 0 && numberOfLaptop >= 0) {
-      var totalBudget = (numberOfWatch * watchPrice) + (numberOfPhone * phonePrice) + (numberOfLaptop * laptopPrice);
+  if (numberOfWatch >= 0 && numberOfMobile >= 0 && numberOfLaptop >= 0) {
+      var totalBudget = (numberOfWatch * watchPrice) + (numberOfMobile * mobilePrice) + (numberOfLaptop * laptopPrice);
       return totalBudget;
   }
   else {
